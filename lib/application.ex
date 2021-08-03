@@ -13,10 +13,5 @@ defmodule TwitchElixirBot.Application do
     ]
 
     TMI.supervisor_start_link(config)
-
-    case TMI.is_connected? do
-      true ->
-        TMI.message("#jpbrab0", "o bot está online")
-    end
   end
 end
