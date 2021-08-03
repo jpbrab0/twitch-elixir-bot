@@ -21,7 +21,7 @@ defmodule TwitchElixirBot.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tmi, "~> 0.3.0"},
+      {:tmi, "~> 0.3.1"},
       {:dotenv, "~> 3.0.0"}
     ]
   end
